@@ -68,6 +68,18 @@ export const SectContainer = styled.div`
     }
   }
 
+  .ColumnContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% - 80px);
+    justify-content: center;
+
+    @media screen and (max-width: 54.375rem) {
+      justify-content: center;
+    }
+  }
+
   .FooterMain {
     display: flex;
     justify-content: center;

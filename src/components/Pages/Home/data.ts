@@ -125,6 +125,22 @@ export const Projetos = [
         src: moonve,
         alt: 'Garota com roupa bem produzida',
         titulo: 'Sobre',
+        texto: 'Moonve Logo',
+        key: 3412411
+      },
+    ]
+  },
+
+  {
+    titulo: 'Seraphine',
+    key: 9890,
+    descricao: 'Seraphine é uma marca de roupa feminina inspirada na Loja Florinda. Tem como objetivo, enaltecer a cultura fortalezense através das roupas, cores e estamparia.',
+
+    items: [
+      {
+        src: seraphine,
+        alt: 'Seraphine Logo',
+        titulo: 'Sobre',
         texto: 'Poses e looks inspirados na vivência da sociedade',
         key: 3412411
       },
@@ -139,7 +155,7 @@ export const Projetos = [
     items: [
       {
         src: menphy,
-        alt: 'Garota com roupa bem produzida',
+        alt: 'Menphy Logo',
         titulo: 'Sobre',
         texto: 'Poses e looks inspirados na vivência da sociedade',
         key: 3412411
@@ -147,21 +163,6 @@ export const Projetos = [
     ]
   },
 
-  {
-    titulo: 'Seraphine',
-    key: 9890,
-    descricao: 'Seraphine é uma marca de roupa feminina inspirada na Loja Florinda. Tem como objetivo, enaltecer a cultura fortalezense através das roupas, cores e estamparia.',
-
-    items: [
-      {
-        src: seraphine,
-        alt: 'Garota com roupa bem produzida',
-        titulo: 'Sobre',
-        texto: 'Poses e looks inspirados na vivência da sociedade',
-        key: 3412411
-      },
-    ]
-  }
 ]
 
 export const Sobre = [

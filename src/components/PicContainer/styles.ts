@@ -6,7 +6,7 @@ export const CoreContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: calc(100% - 2.5rem);
+  width: calc(100%);
 
   aside{
    transition: 0.25s;
@@ -14,8 +14,8 @@ export const CoreContainer = styled.div`
 
   @media screen and (min-width: 56.25rem) {
    aside + aside {
-    margin-left: 4.5rem;
-    margin-top: 0;
+    margin-left: 2.5rem;
+    margin-top: 1;
    }
   }
 

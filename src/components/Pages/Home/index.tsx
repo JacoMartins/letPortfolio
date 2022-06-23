@@ -28,7 +28,7 @@ interface Elmnt {
   element: HTMLElement;
 }
 
-export function Page({changeNav}:PageType) {
+export function Page({ changeNav }: PageType) {
 
   return (
     <PageMain>
@@ -152,24 +152,28 @@ export function Page({changeNav}:PageType) {
       <Sect id="portfolio">
         <SectContainer>
           <SectionTitle>Portfólio</SectionTitle>
-          <div className='Container'>
-            {Projetos.map(
-              (item) => {
-                return (
-                  <Summary key={item.key} type='Imagem' title={item.titulo} subTitle={item.descricao}>
-                    <Container>
-                      {item.items.map(
-                        (item_) => {
-                          return (
-                            <Picture key={item_.key} type={1} titulo={item_.titulo} texto={item_.texto} alt={item_.alt} imagem={item_.src} />
-                          )
-                        }
-                      )}
-                    </Container>
-                  </Summary>
-                )
-              }
-            )}
+          <div className='ColumnContainer'>
+            <Summary type="Imagem" title="Marketing Digital" subTitle="Veja aqui alguns trabalhos de marketing digital que realizei">
+              <PicContainer>
+                {Projetos.map(
+                  (item) => {
+                    return (
+                      <Summary key={item.key} type='Imagem' title={item.titulo} subTitle={item.descricao}>
+                        <Container>
+                          {item.items.map(
+                            (item_) => {
+                              return (
+                                <Picture key={item_.key} type={1} titulo={item_.titulo} texto={item_.texto} alt={item_.alt} imagem={item_.src} />
+                              )
+                            }
+                          )}
+                        </Container>
+                      </Summary>
+                    )
+                  }
+                )}
+              </PicContainer>
+            </Summary>
           </div>
         </SectContainer>
       </Sect>
