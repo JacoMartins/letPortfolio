@@ -121,7 +121,7 @@ export function Page({ changeNav }: PageType) {
 
           <div className='SummaryContainer'>
             <Summary type='%list' title="Social Media" subTitle='' summaries={letSummary1} />
-            <Summary type='%list' title="Fotografia" subTitle='' summaries={letSummary2} />
+            <Summary type='%list' title="Marketing Digital" subTitle='' summaries={letSummary2} />
           </div>
         </AbilitiesContainer>
       </AbilitiesSection>
