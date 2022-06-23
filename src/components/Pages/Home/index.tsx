@@ -154,6 +154,7 @@ export function Page({ changeNav }: PageType) {
           <SectionTitle>Portfólio</SectionTitle>
           <div className='ColumnContainer'>
             <Summary type="Imagem" title="Marketing Digital" subTitle="Veja aqui alguns trabalhos de marketing digital que realizei">
+              <hr></hr>
               <PicContainer>
                 {Projetos.map(
                   (item) => {

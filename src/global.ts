@@ -96,6 +96,11 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
+  hr {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    margin-bottom: 2rem;
+  }
+
   [disabled] {
     opacity: 0.6;
     cursor: not-allowed;
