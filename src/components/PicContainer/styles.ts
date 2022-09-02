@@ -9,21 +9,28 @@ export const CoreContainer = styled.div`
   width: calc(100%);
 
   aside{
-   transition: 0.25s;
+    margin-top: 1rem;
+    transition: 0.25s;
+  }
+
+  aside + aside {
+    padding-top: 1.5rem;
   }
 
   @media screen and (min-width: 56.25rem) {
    aside + aside {
-    margin-left: 2.5rem;
-    margin-top: 1;
+    padding-top: 0;
+    margin-top: 1rem;
    }
   }
 
   @media screen and (max-width: 40rem) {
-   flex-direction: column;
-   aside + aside {
-    margin-top: 2rem;
-    margin-left: 0;
+   flex-direction: row;
+   flex-wrap: wrap;
+   aside {
+    margin-left: 0rem;
+    padding-top: 0;
+    margin-top: 1.5rem;
    }
   }
 `;

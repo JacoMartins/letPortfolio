@@ -3,6 +3,30 @@ import moonve from '../../../assets/images/moonve.jpeg';
 import seraphine from '../../../assets/images/seraphine.jpeg';
 import menphy from '../../../assets/images/menphy.jpeg';
 
+import anos70_1 from '../../../assets/images/anos70-1.jpeg';
+import anos70_2 from '../../../assets/images/anos70-2.jpeg';
+import anos70_3 from '../../../assets/images/anos70-3.jpeg';
+
+import backstage_1 from '../../../assets/images/backstage1.jpeg';
+import backstage_2 from '../../../assets/images/backstage2.jpeg';
+import backstage_3 from '../../../assets/images/backstage3.jpeg';
+
+import org_1 from '../../../assets/images/org1.jpeg';
+import org_2 from '../../../assets/images/org2.jpeg';
+import org_3 from '../../../assets/images/org3.jpeg';
+
+import rbd_1 from '../../../assets/images/rbd1.jpeg';
+import rbd_2 from '../../../assets/images/rbd2.jpeg';
+import rbd_3 from '../../../assets/images/rbd3.jpeg';
+
+import strongwoman_1 from '../../../assets/images/strongwoman1.jpeg';
+import strongwoman_2 from '../../../assets/images/strongwoman2.jpeg';
+import strongwoman_3 from '../../../assets/images/strongwoman3.jpeg';
+
+import look_1 from '../../../assets/images/look1.jpeg';
+import look_2 from '../../../assets/images/look2.jpeg';
+import look_3 from '../../../assets/images/look3.jpeg';
+
 import sobrelet_1 from '../../../assets/images/sobrelet1.jpeg'
 import sobrelet_2 from '../../../assets/images/sobrelet2.jpeg'
 import sobrelet_3 from '../../../assets/images/sobrelet3.jpeg'
@@ -114,56 +138,145 @@ export const letCourses = [
   },
 ]
 
-export const Projetos = [
-  {
-    titulo: 'Moonve',
-    key: 9890,
-    descricao: 'Moonve é uma marca com ideias de reutilização de roupas e coisas artesanais. Conta sobre a lua que, em suas fases, muda o seu formato de acordo com a sombra que a cobre.  dentro das tendências da moda.',
-
-    items: [
-      {
-        src: moonve,
-        alt: 'Garota com roupa bem produzida',
-        titulo: 'Sobre',
-        texto: 'Moonve Logo',
-        key: 3412411
-      },
-    ]
-  },
-
-  {
-    titulo: 'Seraphine',
-    key: 9890,
-    descricao: 'Seraphine é uma marca de roupa feminina inspirada na Loja Florinda. Tem como objetivo, enaltecer a cultura fortalezense através das roupas, cores e estamparia.',
-
-    items: [
-      {
-        src: seraphine,
-        alt: 'Seraphine Logo',
-        titulo: 'Sobre',
-        texto: 'Poses e looks inspirados na vivência da sociedade',
-        key: 3412411
-      },
-    ]
-  },
-
-  {
-    titulo: 'Menphy',
-    key: 9890,
-    descricao: 'Menphy é uma instituição, como o nome já diz, de abrigo e suporte à pessoas carentes e sem família com todas as idades possíveis.',
-
-    items: [
-      {
-        src: menphy,
-        alt: 'Menphy Logo',
-        titulo: 'Sobre',
-        texto: 'Poses e looks inspirados na vivência da sociedade',
-        key: 3412411
-      },
-    ]
-  },
-
-]
+export const Projetos = [{
+  titulo: "Editorial Anos 70",
+  key: 9890,
+  descricao: "Poses e looks inspirados na vivência da sociedade",
+  items: [{
+      src: anos70_1,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 3412411
+  }, {
+      src: anos70_2,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 2541
+  }, {
+      src: anos70_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 34312
+  }]
+}, {
+  titulo: "Editorial Strong Woman",
+  key: 44132,
+  descricao: 'Editorial fotográfico com o tema "Strong Woman" 2022',
+  items: [{
+      src: strongwoman_1,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 53412
+  }, {
+      src: strongwoman_2,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 64532
+  }, {
+      src: strongwoman_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 7562341
+  }]
+}, {
+  titulo: "Editorial Rebeldes",
+  key: 854132,
+  descricao: 'Editorial fotográfico com o tema "Rebeldes 2022"',
+  items: [{
+      src: rbd_1,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 9511643
+  }, {
+      src: rbd_2,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 10413
+  }, {
+      src: rbd_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 115413651
+  }]
+}, {
+  titulo: "Montagem de Looks",
+  key: 12431,
+  descricao: "Outonar-se: Looks pensados, montados e inspirados na estação Outono",
+  items: [{
+      src: look_1,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 13431
+  }, {
+      src: look_2,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 1412341
+  }, {
+      src: look_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 1565234
+  }]
+}, {
+  titulo: "Backstage",
+  key: 1646116,
+  descricao: 'Fotógrafa do editorial "Rebeldes"',
+  items: [{
+      src: backstage_1,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 176413
+  }, {
+      src: backstage_2,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 188795
+  }, {
+      src: backstage_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 196413
+  }]
+}, {
+  titulo: "Organização e Fotografia",
+  key: 20725,
+  descricao: "Organizadora e fotógrafa do evento do Dia da Mulher na EEEP Leonel de Moura Brizola",
+  items: [{
+      src: org_1,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 252721
+  }, {
+      src: org_2,
+      alt: "Garota com roupa bem produzida",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 222415
+  }, {
+      src: org_3,
+      alt: "",
+      titulo: "Sobre",
+      texto: "Poses e looks inspirados na vivência da sociedade",
+      key: 236623
+  }]
+}];
 
 export const Sobre = [
   {

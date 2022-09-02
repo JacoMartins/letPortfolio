@@ -153,8 +153,6 @@ export function Page({ changeNav }: PageType) {
         <SectContainer>
           <SectionTitle>Portfólio</SectionTitle>
           <div className='ColumnContainer'>
-            <Summary type="Imagem" title="Marketing Digital" subTitle="Veja aqui alguns trabalhos de marketing digital que realizei">
-              <hr></hr>
               <PicContainer>
                 {Projetos.map(
                   (item) => {
@@ -164,7 +162,7 @@ export function Page({ changeNav }: PageType) {
                           {item.items.map(
                             (item_) => {
                               return (
-                                <Picture key={item_.key} type={1} titulo={item_.titulo} texto={item_.texto} alt={item_.alt} imagem={item_.src} />
+                                <Picture key={item_.key} type={0} titulo={item_.titulo} texto={item_.texto} alt={item_.alt} imagem={item_.src} />
                               )
                             }
                           )}
@@ -174,7 +172,6 @@ export function Page({ changeNav }: PageType) {
                   }
                 )}
               </PicContainer>
-            </Summary>
           </div>
         </SectContainer>
       </Sect>
