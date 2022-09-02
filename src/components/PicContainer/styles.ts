@@ -14,12 +14,11 @@ export const CoreContainer = styled.div`
   }
 
   aside + aside {
-    padding-top: 1.5rem;
+    padding-top: 2rem;
   }
 
   @media screen and (min-width: 56.25rem) {
    aside + aside {
-    padding-top: 0;
     margin-top: 1rem;
    }
   }
@@ -29,8 +28,11 @@ export const CoreContainer = styled.div`
    flex-wrap: wrap;
    aside {
     margin-left: 0rem;
-    padding-top: 0;
     margin-top: 1.5rem;
+   }
+
+   aside + aside {
+    padding-top: 0rem;
    }
   }
 `;
