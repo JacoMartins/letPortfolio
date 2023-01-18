@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import img from '../../../assets/images/letmain.jpeg';
+
 interface FontProps {
   tone?: string | null;
 }
@@ -183,16 +185,7 @@ export const PresentContainer = styled.div`
       height: 16rem;
       width: 18.75rem;
       border-radius: 16rem;
-      background-image: url${() => {
-    let isDevelopment = 0;
-
-    if (isDevelopment === 0) {
-      return '(/assets/letmain.89d2a3bc.jpeg)'
-    } else {
-      return '(../../src/assets/images/letmain.jpeg)'
-    }
-
-  }};
+      background-image: url(${img});
       background-size: 125%;
       background-position: 45% 10%;
       overflow: hidden;
